@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('img1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.toolbar {
+    background-color: #333; 
+    padding: 15px;
+}
+
+.toolbar a {
+    color: white; /* White text color for toolbar links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 10px;
+}
+
+.toolbar a.active {
+    font-weight: bold; /* Bold font for active link */
+}
+
+.content {
+    max-width: 800px; /* Limit content width */
+    margin: 20px auto; /* Center content */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* White background with transparency */
+    border-radius: 10px; /* Rounded corners for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+    text-align: center; /* Center heading */
+    color: #333; /* Dark text color */
+}
+
+p {
+    color: #333; /* Dark text color */
+    font-size: 18px; /* Font size for paragraph */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+.fort-row {
+    display: flex; /* Use flexbox for row layout */
+    justify-content: space-around; /* Space between images */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.fort {
+    text-align: center; /* Center fort content */
+    flex: 1; /* Equal width for flex items */
+    margin: 10px; /* Space around each fort */
+}
+
+.fort img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.fort img:hover {
+    transform: scale(1.05); /* Scale image on hover */
+}
+
+.fort p {
+    margin-top: 10px; /* Space between image and text */
+    font-size: 18px; /* Font size for fort names */
+    color: white; /* White text color for fort names */
+}

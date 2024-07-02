@@ -1,0 +1,15 @@
+.mybtn {
+    color: blue;
+    width: 120px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#heading {
+    color: aquamarine;
+}
+
+.im{
+    color: red;
+}
